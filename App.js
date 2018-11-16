@@ -2,10 +2,10 @@ import React from 'react';
 import { Text, View, ImageBackground } from 'react-native';
 import Landing from './src/Landing';
 import Search from './src/Search';
-//
+
 export default class App extends React.Component {
   state = {
-    currentScreen: 'landing'
+    currentScreen: 'search'
   };
   switchScreen = currentScreen => {
     this.setState({ currentScreen });
